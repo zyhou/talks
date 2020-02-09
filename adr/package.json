@@ -1,15 +1,19 @@
 {
-  "name": "adr",
-  "version": "1.0.0",
-  "main": "slidex.mdx",
-  "license": "MIT",
-  "scripts": {
-    "start": "mdx-deck slides.mdx",
-    "build": "mdx-deck build slides.mdx",
-    "serve": "serve public"
-  },
-  "devDependencies": {
-    "mdx-deck": "3.1.0",
-    "serve": "11.3.0"
-  }
+    "name": "adr",
+    "version": "1.0.0",
+    "main": "slidex.mdx",
+    "license": "MIT",
+    "scripts": {
+        "start": "mdx-deck slides.mdx",
+        "build": "mdx-deck build slides.mdx",
+        "serve": "serve public",
+        "adr:new": "adr new",
+        "adr:list": "adr list",
+        "adr:search": "adr search"
+    },
+    "devDependencies": {
+        "adr": "1.1.2",
+        "mdx-deck": "3.1.0",
+        "serve": "11.3.0"
+    }
 }
