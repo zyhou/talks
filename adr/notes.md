@@ -49,11 +49,11 @@ Les ADR sont une solution pour enregistrer et communiquer ces décisions.
 ### Que contient ce fichier ?
 
 -   Le titre est exprimé sous forme de phrases nominales simple "Git pour le controle de version", "LDAP pour l'authentification" "React pour le développement web"
--   Décideurs, qui était impliqué dans la prise de décision
--   Avec un status (proposé, acceptés, deprecated)
--   Le contexte, d'écrit les forces en jeu. Ces forces peuvent être technologiques, politiques, culturelles, basées sur des projets, etc. Il existe probablement des tensions et le contexte devrait refléter ces tensions de manière non biaisée.
+-   Avec un status avec la date (proposé, accepté, déprécié)
+-   Le contexte qui d'écrit les forces en jeu. Ces forces peuvent être technologiques, politiques, culturelles, basées sur des projets, etc. Il existe probablement des tensions et le contexte devrait refléter ces tensions de manière non biaisée.
 -   Une décisions, le plus souvent il commence part "Nous allons ..." et ensuite la décision, ou un simplement un énoncé de la décision elle même
 -   Une concéquences, chaque décision a des conséquences, bonne ou mauvaises. Encore une fois, faites attention à la langue utilisée; ce ne sont pas des jugements de valeur, ce sont des déclarations de fait, il faut être aussi proches que possible de la réalité.
+-   Décideurs, qui était impliqué dans la prise de décision
 -   Ajout de Références externes sur arte
 
 ### Processus de validation
@@ -75,7 +75,7 @@ Outils en ligne de commandes, https://adr.github.io/
 -   Il doit être court et précis, pas plus d'une ou deux pages.
 -   Chaque ADR doit concerner une seule décisions
 -   Un nouvel ADR peut remplacer un ADR précédent, ils sont immutable.
--   Ne faite pas attention aux détails - si vous ne savez pas si vous devez créer un ADR, créez-en un.
+-   Ne faite pas attention aux détails - si vous ne savez pas si vous devez créer un ADR, créez-en un. ca va ouvrir le débat
 
 ## Les avantages
 
@@ -109,7 +109,7 @@ J'y vois énormement d'avantage
 
 ### Convaincu
 
-Je pense que je vous est convaincu, n'attend âs
+Je pense que je vous est convaincu, n'attend pas, commencer!
 
 ### Avertissement
 
