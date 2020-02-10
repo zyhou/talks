@@ -4,13 +4,13 @@ Prendre, documenter et communiquer des décisions architecturales est l'une des 
 
 ## Le Problème
 
-Vous avez regardé un bout de code, de configuration ou autre choses et vous vous êtes dit: pourquoi avons-nous fait cela? Je sais que chaque développeur a dû faire au moins une fois dans sa vie. Vous regardez quelque chose qui a été fait (peut-être que vous l'avez fait!), Et vous ne savez pas pourquoi cela a été fait de cette façon.
+Vous avez regardé un bout de code, de configuration ou autre choses et vous vous êtes dit: pourquoi avons-nous fait cela? Je sais que chaque développeur a dû se poser au moins une fois dans sa vie cette question. Vous regardez quelque chose qui a été fait (peut-être que vous l'avez fait!), Et vous ne savez pas pourquoi cela a été fait de cette façon.
 
-Dans notre travail, nous prenons constamment des décisions sur importantes sur l'architecture. Ces décisions peuvent avoir un impact important comme choisir entre React vs Angular, Node vs PHP. Mais aussi des décisions banal comme pagination vs scroll infini. Ces décisions peut être prise par une seule personne ou par l'équipe.
+Dans notre travail, nous prenons constamment des décisions qui impacte l'architecture. Ces décisions peuvent avoir un impact important comme choisir entre React vs Angular, un produit1 vs un produit2. Mais aussi des décisions banal comme est-ce qu'on met une pagination ou un scroll infini. De plus ces décisions peut être prise par une seule personne ou par l'équipe.
 
 Dans tous les cas, même les décisions qui paraissent simples au moment où elles sont prises peuvent ne plus l’être quelques mois voire quelques années plus tard. C’est particulièrement vrai lorsque les équipes changent rapidement. En effet, les nouveaux arrivés sur le projet auront accès au code qui donnera l’état actuel de l’architecture, mais le code ne permettra pas de donner tout le contexte des décisions prises sur le projet.
 
-La plupart d'entre nous font un excellent travail et réfléchissent soigneusement à ces décisions: Prendre en compte tous les avantages et les inconvénients des nombreuses options. Discuter de ces options avec l'équipe. Et ensuite implémenter la solution. Peut-être que nous allons mettre à jour l'user story, la documentation avec certaines des informations qui ont conduit à la décision, généralement cette partie pose problème et surtout le contexte est perdu.
+La plupart d'entre nous font un excellent travail et réfléchissent soigneusement à ces décisions: Prendre en compte tous les avantages et les inconvénients des nombreuses options. Discuter de ces options avec l'équipe. Et ensuite implémenter la solution. Peut-être que nous allons mettre à jour l'user story, la documentation avec certaines des informations qui ont conduit à la décision, généralement cette partie pose problème et surtout on perd le contexte.
 
 Sur cette partie nous ne sommes pas bon, il faut
 
@@ -24,16 +24,16 @@ Trop souvent, les décisions ne sont pas assez documenté, si ils le sont elle s
 
 ## Et un wiki?
 
-Beaucoup de gens utilisent des wikis pour essayer de documenter ces types de décisions, ce qui est mieux que rien. Mais, il y a un décalage (généralement) entre le code et le wiki, et dans la plupart des endroits, les wikis sont l'endroit où les documents vont mourir.
+Beaucoup de gens utilisent des wikis pour essayer de documenter ces types de décisions, ce qui est mieux que rien. Mais, il y a un décalage (généralement) entre le code et le wiki, et dans la plupart des entreprises, les wikis sont l'endroit où les documents vont mourir.
 
 ### Pour moi une bonne documentation?
 
--   Facilité pour trouver l'information
+-   Une information facile à trouver
 -   Apporte de la valeur, utile
 -   Facile à maintenir
 -   Directement dans le code source
 
-La socialisation est l'une des meilleures pratiques à avoir. Les mettre directement dans la base de code où les gens travaillent tous les jours peut la rendre très pertinente.
+La sociabilisation est l'une des meilleures pratiques à avoir, il faut partager. Mettre la documentation directement dans la base de code où les gens travaillent tous les jours, cela la rend très pertinente.
 
 ## Solution
 
