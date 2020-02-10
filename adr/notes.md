@@ -1,16 +1,16 @@
 # Communicating and documenting architectural decisions
 
-Prendre, documenter et communiquer des décisions architecturales est l'une des choses les plus difficiles à faire, en particulier dans cette nouvelle ère d'architecture "agile". L'époque où les architectures figé, basé sur des technologies approuvées est révolue. Au lieu de cela, nous avons des équipes agiles qui s'appuient sur des techniques d'architecture émergentes et les dernières langages à la mode. Comment maîtriser cet environnement et s'assurer que ce qui est fait est documenté et communiqué à l'ensemble de l'organisation?
+Documenter, communiquer et prendre, des décisions architecturales est l'une des choses les plus difficiles à faire, en particulier dans cette nouvelle ère d'architecture "agile". L'époque où les architectures figé, basé sur des technologies approuvées est révolue. Au lieu de cela, nous avons des équipes agiles qui s'appuient sur des techniques d'architecture émergentes et les dernières langages à la mode. Comment maîtriser cet environnement et s'assurer que ce qui est fait est documenté et communiqué à l'ensemble de l'organisation?
 
 ## Le Problème
 
 Vous avez regardé un bout de code, de configuration ou autre choses et vous vous êtes dit: pourquoi avons-nous fait cela? Je sais que chaque développeur a dû se poser au moins une fois dans sa vie cette question. Vous regardez quelque chose qui a été fait (peut-être que vous l'avez fait!), Et vous ne savez pas pourquoi cela a été fait de cette façon.
 
-Dans notre travail, nous prenons constamment des décisions qui impacte l'architecture. Ces décisions peuvent avoir un impact important comme choisir entre React vs Angular, un produit1 vs un produit2. Mais aussi des décisions banal comme est-ce qu'on met une pagination ou un scroll infini. De plus ces décisions peut être prise par une seule personne ou par l'équipe.
+Dans notre travail, nous prenons constamment des décisions qui impacte l'architecture. Ces décisions peuvent avoir un impact important comme choisir entre React vs Angular, grafana vs kibana. Mais aussi des décisions banal comme est-ce qu'on met une pagination ou un scroll infini sur cette page. De plus ces décisions peut être prise par une seule personne ou par l'équipe.
 
 Dans tous les cas, même les décisions qui paraissent simples au moment où elles sont prises peuvent ne plus l’être quelques mois voire quelques années plus tard. C’est particulièrement vrai lorsque les équipes changent rapidement. En effet, les nouveaux arrivés sur le projet auront accès au code qui donnera l’état actuel de l’architecture, mais le code ne permettra pas de donner tout le contexte des décisions prises sur le projet.
 
-La plupart d'entre nous font un excellent travail et réfléchissent soigneusement à ces décisions: Prendre en compte tous les avantages et les inconvénients des nombreuses options. Discuter de ces options avec l'équipe. Et ensuite implémenter la solution. Peut-être que nous allons mettre à jour l'user story, la documentation avec certaines des informations qui ont conduit à la décision, généralement cette partie pose problème et surtout on perd le contexte.
+La plupart d'entre nous font un excellent travail et réfléchissent soigneusement à ces décisions: Prendre en compte tous les avantages et les inconvénients des nombreuses options. Discuter de ces options avec l'équipe. Et ensuite implémenter la solution. Peut-être que nous allons mettre à jour l'user story, la documentation avec certaines des informations qui ont conduit à la décision, généralement cette partie pose problème parce qu'on perd le contexte de la décision.
 
 Sur cette partie nous ne sommes pas bon, il faut
 
@@ -20,7 +20,7 @@ Sur cette partie nous ne sommes pas bon, il faut
 
 ### Pas assez documenté
 
-Trop souvent, les décisions ne sont pas assez documenté, si ils le sont elle se trouve dans la documentation actuel perdu dans un repertoire partagé
+Trop souvent, les décisions ne sont pas assez documenté, si elles le sont elle se trouve dans la documentation actuel perdu dans un repertoire partagé
 
 ## Et un wiki?
 
