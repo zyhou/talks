@@ -9,11 +9,13 @@
         "serve": "serve public",
         "adr:new": "adr new",
         "adr:list": "adr list",
-        "adr:search": "adr search"
+        "adr:search": "adr search",
+        "format": "prettier --write --check \"**/*.+(md|mdx|json)\""
     },
     "devDependencies": {
         "adr": "1.1.2",
-        "mdx-deck": "3.1.0",
+        "mdx-deck": "4.0.0",
+        "prettier": "prettier/prettier#next",
         "serve": "11.3.0"
     }
 }
