@@ -4,18 +4,16 @@
     "main": "slidex.mdx",
     "license": "MIT",
     "scripts": {
-        "start": "mdx-deck slides.mdx",
-        "build": "mdx-deck build slides.mdx",
-        "serve": "serve public",
+        "start": "reveal-md slides.md -w",
+        "build": "reveal-md slides.md --static public --static-dirs=images",
         "adr:new": "adr new",
         "adr:list": "adr list",
         "adr:search": "adr search",
-        "format": "prettier --write --check \"**/*.+(md|mdx|json)\""
+        "format": "prettier --write --check \"**/*.+(md|json)\""
     },
     "devDependencies": {
         "adr": "1.1.2",
-        "mdx-deck": "4.0.0",
-        "prettier": "prettier/prettier#next",
-        "serve": "11.3.0"
+        "prettier": "1.19.1",
+        "reveal-md": "3.4.7"
     }
 }
