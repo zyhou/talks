@@ -70,13 +70,11 @@ theme: white
 
 ---
 
-## Pas de surcharge de fichiers
+## Finit les nombreux fichiers
 
 ```
-- bulma.css
 - general.css
 - blog.css
-- tidbit.css
 - pagination.css
 - banner.css
 - footer.css
