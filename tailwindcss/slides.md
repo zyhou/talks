@@ -120,6 +120,12 @@ theme: white
 
 ---
 
+## State Of CSS 2019
+
+<img src="./images/stateofcss.png"  />
+
+---
+
 ## Merci!
 
 Slides: https://github.com/zyhou/talks
