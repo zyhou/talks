@@ -6,7 +6,6 @@
     "scripts": {
         "start": "reveal-md slides.md -w",
         "build": "reveal-md slides.md --static public --static-dirs=images",
-        "copy-redirect": "cp _redirects public",
         "export-pdf": "reveal-md slides.md --print slides.pdf",
         "format": "prettier --write --check \"**/*.+(md|json)\""
     },
